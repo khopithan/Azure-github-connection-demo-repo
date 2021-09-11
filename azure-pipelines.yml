@@ -1,7 +1,7 @@
 # DemoSpring pipeline
 
 trigger:
-- main
+- master
 
 pool:
   vmImage: ubuntu-latest
