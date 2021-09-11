@@ -15,6 +15,7 @@ stages:
          steps:
            - script: echo 'Running Spring demo app unit test'
            - script: echo 'Running by khopi'
+           - script: echo 'Running by khopi2'
            - task: Maven@3
              inputs:
               mavenPomFile: 'pom.xml'
